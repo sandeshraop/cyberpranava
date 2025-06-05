@@ -1,0 +1,106 @@
+/* Clients Section */
+.clients-section {
+  margin: 1.5rem 0 4rem 0;
+  width: 100%;
+  overflow: hidden;
+  padding: 2rem 0;
+  position: relative;
+}
+
+.clients-section h2 {
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0 0 2rem 5%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+.clients-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 2px;
+  background: #50C878;
+}
+
+.logos-scroll {
+  display: flex;
+  width: max-content;
+  animation: scroll 20s linear infinite;
+  will-change: transform;
+  padding: 1rem 0;
+  white-space: nowrap;
+}
+
+.logo-item {
+  margin: 0 2.5rem;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+}
+
+.logo-item i {
+  font-size: 2.5rem;
+}
+
+/* Company-specific colors */
+.fa-google { color: #4285F4; }
+.fa-amazon { color: #FF9900; }
+.fa-microsoft { color: #00A4EF; }
+.fa-apple { color: #000000; }
+.fa-meta { color: #0866FF; }
+.fa-netflix { color: #E50914; }
+.fa-spotify { color: #1DB954; }
+.fa-twitter { color: #1DA1F2; }
+.fa-slack { color: #4A154B; }
+.fa-github { color: #333333; }
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* Move by half the width of the container */
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .logos-scroll {
+    animation-duration: 35s;
+  }
+  
+  .logo-item {
+    margin: 0 2rem;
+  }
+  
+  .logo-item i {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .clients-section {
+    margin: 3rem 0;
+  }
+  
+  .logos-scroll {
+    animation-duration: 30s;
+  }
+  
+  .logo-item {
+    margin: 0 1.5rem;
+  }
+  
+  .logo-item i {
+    font-size: 2rem;
+  }
+}
