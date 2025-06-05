@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "./static/css/main.2e8a5b89.css",
-    "main.js": "./static/js/main.a185926e.js",
-    "static/js/453.daf366d9.chunk.js": "./static/js/453.daf366d9.chunk.js",
-    "index.html": "./index.html",
-    "main.2e8a5b89.css.map": "./static/css/main.2e8a5b89.css.map",
-    "main.a185926e.js.map": "./static/js/main.a185926e.js.map",
-    "453.daf366d9.chunk.js.map": "./static/js/453.daf366d9.chunk.js.map"
+    "main.css": "/cyberpranava/static/css/main.2e8a5b89.css",
+    "main.js": "/cyberpranava/static/js/main.2e9e10f3.js",
+    "static/js/453.daf366d9.chunk.js": "/cyberpranava/static/js/453.daf366d9.chunk.js",
+    "index.html": "/cyberpranava/index.html",
+    "main.2e8a5b89.css.map": "/cyberpranava/static/css/main.2e8a5b89.css.map",
+    "main.2e9e10f3.js.map": "/cyberpranava/static/js/main.2e9e10f3.js.map",
+    "453.daf366d9.chunk.js.map": "/cyberpranava/static/js/453.daf366d9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2e8a5b89.css",
-    "static/js/main.a185926e.js"
+    "static/js/main.2e9e10f3.js"
   ]
 }
